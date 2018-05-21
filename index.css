@@ -4,69 +4,19 @@
     text-align: left;
 }
 
-.header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #666;
+
+.article {
+	margin-left: 145px;
+	padding: 0px 20px;
+	border: solid;
 }
 
-.headerElt {
-    float: left;
-}
-
-.headerElt .headerLink {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 0px;
-    text-decoration: none;
-    width: 125px;
-}
-
-.headerElt .headerLink:hover {
-    background-color: #36d82b;
-}
-
-.activeHeader {
-    background-color: blue;
-}
-
-.sidebar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 125px;
-    overflow: hidden;
-    background-color: #333;
-	position: fixed;
-}
-
-
-.sidebarHeader {
-    background-color: red;
-    padding: 0px;
-	line-height: 50px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.sidebarElt {
-    text-align: center;
-}
-
-.sidebarElt .sidebarLink {
-    display: inline-block;
-    color: white;
-    text-decoration: none;	
+.articleImg {
+	float: left;
 	width: 125px;
-	line-height: 50px;
+	height: 125px;
+	border-style=solid;
 }
 
-
-.sidebarElt .sidebarLink:hover {
-    background-color: #36d82b;
+.articlePreview {
 }
-
-

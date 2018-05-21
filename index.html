@@ -2,19 +2,23 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
-    </head>
+		<link rel="stylesheet" href="csstemplates/navbars.css"> 
+   </head>
+
     <body>
         <title> The blog of Alexander B. Welty</title>
         <p class="name"> Alexander B. Welty</p>
 
-        <ul class="header">
-            <li class="headerElt activeHeader"><a class="headerLink" href = "pubhtml.html"> Home </a></li>
-            <li class="headerElt"><a class="headerLink" href = "aboutme.html"> About Me </a></li>
-            <li class="headerElt"><a class="headerLink" href = https://github.com/ennfour> GitHub </a></li>
-            <li class="headerElt"><a class="headerLink" href = "aboutme.html"> LinkedIn </a></li>
-            <li class="headerElt"><a class="headerLink" href = "/posts/index.html"> Recent Posts </a></li>
+        <ul class="topBar">
+            <li class="topBarElt activeTopBar"><a class="topBarLink" href = "pubhtml.html"> Home </a></li>
+            <li class="topBarElt"><a class="topBarLink" href = "info/aboutme.html"> About Me </a></li>
+            <li class="topBarElt"><a class="topBarLink" href = https://github.com/ennfour> GitHub </a></li>
+            <li class="topBarElt"><a class="topBarLink" href = "AboutMe.html"> LinkedIn </a></li>
+            <li class="topBarElt"><a class="topBarLink" href = "/posts/index.html"> Recent Posts </a></li>
         </ul>
-		<br/>
+
+	<br/>
+
         <ul class="sidebar">
             <li class="sidebarHeader"> Nav </li>
             <li class="sidebarElt"><a class="sidebarLink" href = "type1.html"> Type 1 </a></li>
@@ -22,12 +26,24 @@
             <li class="sidebarElt"><a class="sidebarLink" href = "type3.html"> Type 3 </a></li>
         </ul>
 
-		<div style="margin-left:25%; padding:1px 16px; height 100px;">
-			<h2> Fixed Full-height Side nav</h2>
-		</div>
+	<div class="article">
+       	    <div class="articleImg">
+		<img src="smiley.gif" alt="Smiley face" align="middle">
+	    </div>
 
-		<div style="margin-left:300px; padding:1px 16px; height 100px;">
-			<h2> Fixed Full-height Side nav</h2>
-		</div>
+	    <div class="articlePreview">
+	    	<h2> Article Title </h2>
+	    	<p> Article paragraph. </p>
+	    	<p> Article paragraph. </p>
+	    	<p> Article paragraph. </p>
+	    	<p> Article paragraph. </p>
+	    </div>
+	</div>
+		
+	<br/>
+
+	<div class="article">
+	    <h2> Fixed Full-height Side nav</h2>
+	</div>
     </body>
 </html>
